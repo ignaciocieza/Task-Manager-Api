@@ -1,0 +1,70 @@
+------
+Links
+------
+https://httpstatuses.com/  //--> pagina que contiene todos los status
+
+https://www.npmjs.com/package/bcryptjs //--> encrypy pass
+
+https://www.npmjs.com/package/jsonwebtoken //-->jwt
+
+https://www.npmjs.com/package/multer 
+
+https://www.npmjs.com/package/sharp
+
+https://app.sendgrid.com/guide/integrate/langs/nodejs
+
+https://www.npmjs.com/package/env-cmd
+
+---------
+Comandos:
+---------
+    //comunicar mongodb con la carpeta de donde se asocia los datos (*)
+1) c:/Users/Ignacio/Downloads/Mongo/mongodb/bin/mongod.exe --dbpath=c:/Users/Ignacio/Downloads/Mongo/mongodb-data
+
+2)node mongodb.js (*)
+
+3)npm i nodemon 
+
+4)npm i express
+
+5)npm i bcryptjs
+
+6)npm i jsonwebtoken
+
+7)npm i multer
+
+8)npm i sharp
+
+9)npm install --save @sendgrid/mail
+
+10)npm i env-cmd
+
+
+------
+Notas:
+-------
+
+-) Robot 3t -> Manejador mongodb
+
+*) !!!!Para conectar mongodb.js, debe estar corriendo las dos "cli" al mismo tiempo, "comandos-> 1 y 2" !!!!!
+
+*) CRUD: create read update delete
+ * 
+ * Create: insertOne | insertMany
+ * read: findOne | find
+ * update: updateOne | updateMany
+ * delete: deleteOne | deleteMany
+ */
+
+ *) REST API: Representational State Transfer - Application Programing Interface:
+        Metodos:
+            GET / POST / PATCH / DELETE
+        Uso: 
+            Para hacer un CRUD:
+                Create -> POST  
+                Read -> GET
+                Upadate -> PATCH
+                Delete -> DELETE
+
+*)Autorization: postman -> Task App "..." -> Edit -> Autorization -> bearer token
+
